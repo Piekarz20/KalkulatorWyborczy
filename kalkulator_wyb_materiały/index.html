@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator wyborczy</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Kalkulator wyborczy</h1>
+      </header>
+      <main>
+        <form>
+          <label for="electoralName"
+            >Nazwa ugrupowania:
+            <input type="text" id="electoralName" name="electoralName"
+          /></label>
+          <label for="isCoalition"
+            >Czy jest koalicją:
+            <input type="checkbox" id="isCoalition" name="isCoalition"
+          /></label>
+          <label for="numberOfVotes"
+            >Ilość głosów:
+            <input type="number" id="numberOfVotes" name="numberOfVotes"
+          /></label>
+          <div>
+            <button id="next">Dodaj kolejne ugrupowanie</button>
+            <button id="calc">Sprawdź wynik procentowy</button>
+          </div>
+        </form>
+        <ol id="electoralList">
+          <!-- <li><b>Super My</b>, jest koalicją, ilość głosów: 676</li>
+          <li><b>Lepsi My</b>, jest koalicją, ilość głosów: 4345676</li>
+          <li><b>Wszyscy my</b>, nie jest koalicją, ilość głosów: 3345125</li> -->
+        </ol>
+      </main>
+      <section id="results">
+        <h2>Wyniki wyborów</h2>
+        <table>
+          <tr>
+            <th>Miejsce</th>
+            <th>Nazwa ugrupowania</th>
+            <th>Próg wyborczy</th>
+            <th>Ilość głosów</th>
+            <th>Wynik procentowy</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Lepsi My</td>
+            <td>8%</td>
+            <td>4345676</td>
+            <td>34,7%</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Wszyscy my</td>
+            <td>5%</td>
+            <td>3345125</td>
+            <td>23,5%</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Super My</td>
+            <td>8%</td>
+            <td>676</td>
+            <td>2,3%</td>
+          </tr>
+        </table>
+        <p>...</p>
+      </section>
+      <footer>
+        <p>&copy; Me</p>
+      </footer>
+    </div>
+  </body>
+</html>
