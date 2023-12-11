@@ -1,0 +1,6 @@
+Założenia projektu:
+1. Formularz (opcjonalnie) do wprowadzania danych (nazwa komitetu, ilość zdobytych głosów, czy jest to koalicja, przycisk zatwierdzenia danych komitetu przycisk uruchamiający skrypt)
+2. Po zatwierdzeniu danych komitetu jego dane wypisywane są poniżej formularza, pola formularza są czyszczone.
+3. Po wprowadzeniu danych wszystkich komitetów aplikacja wylicza ich wynik procentowy i wyświetla w tablicy komitety posortowane malejąco względem wyniku procentowego, komitety, które przekroczyły próg wyborczy czcionka w kolorze zielonym
+
+Przykładowy wygląd aplikacji w dołączonych plikach
